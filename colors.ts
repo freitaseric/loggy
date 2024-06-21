@@ -30,6 +30,4 @@ export const colors = {
 	},
 }
 
-const color = c
-
-export default color
+export const colorer = c
