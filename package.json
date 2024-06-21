@@ -1,0 +1,22 @@
+{
+  "name": "loggy",
+  "description": "A simple logging library for Node.js and Bun projects.",
+  "license": "Apache-2.0",
+  "author": {
+    "email": "freitaseric@proton.me",
+    "name": "Eric Freitas",
+    "url": "https://github.com/freitaseric"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.2",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
