@@ -1,8 +1,8 @@
-import { Logger } from './logger'
+import { MightLogger } from './logger'
 
 export * as loggy from './logger'
 export * from './colors'
 
-export default new Logger({
+export default new MightLogger({
 	verbosity: 2,
 })

@@ -1,6 +1,6 @@
 import { colors } from './colors'
 
-export interface LoggerOptions {
+export interface MightLoggerOptions {
 	verbosity: number
 	locale?: string
 	pretty?: boolean
@@ -14,12 +14,12 @@ export enum LogLevel {
 	WARNING = 4,
 }
 
-export class Logger {
+export class MightLogger {
 	private _verbosity: number
 	private _locale: string | undefined
 	private _pretty: boolean | undefined
 
-	constructor(options: Partial<LoggerOptions>) {
+	constructor(options: Partial<MightLoggerOptions>) {
 		this._verbosity = options.verbosity ?? 2
 		this._locale = options.locale
 		this._pretty = options.pretty

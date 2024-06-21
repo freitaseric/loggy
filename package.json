@@ -1,12 +1,14 @@
 {
-  "name": "loggy",
+  "name": "might-log",
   "description": "A simple logging library for Node.js and Bun projects.",
+  "version": "0.1.0",
   "license": "Apache-2.0",
   "author": {
     "email": "freitaseric@proton.me",
     "name": "Eric Freitas",
     "url": "https://github.com/freitaseric"
   },
+  "homepage": "https://github.com/freitaseric/might-log#readme",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {

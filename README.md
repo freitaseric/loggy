@@ -1,4 +1,4 @@
-# Loggy
+# MightLog
 
 > A simple logging library for Node.js and Bun projects.
 
@@ -7,30 +7,30 @@ This library was created to improve the way you communicate with your console.
 ## Instalation
 
 ```bash
-  $ npm install loggy
+  $ npm install might-log
 
-  $ yarn add loggy
+  $ yarn add might-log
 
-  $ pnpm add loggy
+  $ pnpm add might-log
 
-  $ bun add loggy
+  $ bun add might-log
 ```
 
 ## Utilization
 
 Basic example:
 ```typescript
-import loggy from 'loggy'
+import might from 'might-log'
 
 //console.log("Hello World!")
-loggy.info("Hello World!")
+might.info("Hello World!")
 ```
 
 Advanced example:
 ```typescript
-import { Loggy } from 'loggy'
+import { MightLogger } from 'might-log'
 
-const console = new Loggy({
+const console = new MightLogger({
   verbosity: 3,
   pretty: true,
   locale: 'es-es',
