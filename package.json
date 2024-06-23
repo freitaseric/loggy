@@ -1,7 +1,7 @@
 {
 	"name": "might-log",
 	"description": "A simple logging library for Node.js and Bun projects.",
-	"version": "0.1.6",
+	"version": "0.2.0",
 	"license": "Apache-2.0",
 	"author": {
 		"email": "freitaseric@proton.me",
@@ -13,8 +13,6 @@
 	},
 	"homepage": "https://github.com/freitaseric/might-log#readme",
 	"main": "dist/index.js",
-	"module": "dist/index.js",
-  "type": "module",
 	"devDependencies": {
 		"@biomejs/biome": "^1.8.2",
 		"@types/bun": "latest",
